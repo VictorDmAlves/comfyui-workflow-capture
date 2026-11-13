@@ -72,5 +72,5 @@ The first three uploaded examples form a portrait-friendly mosaic: first feature
 - **[PNG Specification (W3C)](https://www.w3.org/TR/png-3/)** — PNG structure and the optional UTF-8 `iTXt` metadata chunk used to embed a workflow JSON.
 - **[MDN — Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)** — Browser canvas drawing, offscreen composition, and image export.
 
-## License
+# License
 See [LICENSE](LICENSE).
