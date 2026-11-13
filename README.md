@@ -53,6 +53,9 @@ Choose **Workflow type**, optionally provide a **Model / backend** and a **Short
 
 The first three uploaded examples form a portrait-friendly mosaic: first featured, two smaller. With fewer examples the layout adapts; with no examples, it shows notable custom node names instead. Known custom-node packages are prioritized and frontend reroutes/unknown groups are omitted from the GitHub cover (they remain in Presentation PNG). The **GitHub Preview** tab lets you inspect this layout before exporting; edits to the relevant fields update that preview without recapturing the graph.
 
+# Example (GitHub Preview)
+![GitHub Preview Screenshot](./images/example.png)
+
 # Notes and known limitations
 1. **Browser canvas limits:** the plugin deliberately rejects outputs wider/taller than 16,384px or greater than 48 megapixels, rather than silently cropping nodes. Set a smaller zoom or multiplier for unusually large graphs. Browsers/GPU memory may impose stricter limits.
 2. **HTML-based widgets:** nodes containing DOM overlays, newer Nodes 2.0 rendering, embedded HTML editors, and some live image previews may not appear completely. Classic LiteGraph canvas nodes are the first target.
